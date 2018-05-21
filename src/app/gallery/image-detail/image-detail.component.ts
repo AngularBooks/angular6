@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import {Component, Input, OnInit} from '@angular/core';
-import {Image} from '../../models/image';
+import { Component, Input, OnInit } from '@angular/core';
+import { Image } from '../../models/image';
 
 @Component({
   selector: 'ng-image-detail',

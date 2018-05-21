@@ -11,6 +11,7 @@ import { ImageDetailComponent } from './gallery/image-detail/image-detail.compon
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import {routes} from './app.routes';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import {routes} from './app.routes';
   imports: [
     routes,
     BrowserModule,
+    HttpClientModule,
   ],
   providers: [ImageService],
   bootstrap: [AppComponent]

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Image} from '../models/image';
+import { Image } from '../models/image';
 
 @Component({
   selector: 'ng-gallery',
